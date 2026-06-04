@@ -1,0 +1,6 @@
+{
+  "name": "Nifty 50 Arbitrage Intelligence Terminal",
+  "description": "A professional hedge-fund grade Nifty 50 Arbitrage Intelligence Terminal showing live simulated spot, futures, fair value, basis spreads, calendar rolls, and order book metrics with automated and manual execution desk capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

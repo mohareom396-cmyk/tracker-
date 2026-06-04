@@ -1,0 +1,60 @@
+export interface StockConfig {
+  symbol: string;
+  name: string;
+  weight: number; // Index weight in percentage
+  basePrice: number; // Base price in INR
+  sector: string; // Industrial classification
+}
+
+export const NIFTY_50_STOCKS: StockConfig[] = [
+  { symbol: "HDFCBANK", name: "HDFC Bank Ltd.", weight: 11.52, basePrice: 1540.25, sector: "Financial Services" },
+  { symbol: "RELIANCE", name: "Reliance Industries Ltd.", weight: 9.12, basePrice: 2450.80, sector: "Oil & Gas" },
+  { symbol: "ICICIBANK", name: "ICICI Bank Ltd.", weight: 7.36, basePrice: 1012.40, sector: "Financial Services" },
+  { symbol: "INFY", name: "Infosys Ltd.", weight: 5.18, basePrice: 1420.15, sector: "Information Technology" },
+  { symbol: "L&T", name: "Larsen & Toubro Ltd.", weight: 4.12, basePrice: 3345.50, sector: "Construction" },
+  { symbol: "ITC", name: "ITC Ltd.", weight: 3.79, basePrice: 428.60, sector: "Consumer Goods" },
+  { symbol: "TCS", name: "Tata Consultancy Services Ltd.", weight: 3.72, basePrice: 3820.40, sector: "Information Technology" },
+  { symbol: "AXISBANK", name: "Axis Bank Ltd.", weight: 3.11, basePrice: 1045.30, sector: "Financial Services" },
+  { symbol: "SBIN", name: "State Bank of India", weight: 2.92, basePrice: 725.10, sector: "Financial Services" },
+  { symbol: "KOTAKBANK", name: "Kotak Mahindra Bank Ltd.", weight: 2.85, basePrice: 1715.40, sector: "Financial Services" },
+  { symbol: "BHARTIARTL", name: "Bharti Airtel Ltd.", weight: 2.76, basePrice: 1130.80, sector: "Telecommunication" },
+  { symbol: "HINDUNILVR", name: "Hindustan Unilever Ltd.", weight: 2.21, basePrice: 2320.50, sector: "Consumer Goods" },
+  { symbol: "BAJFINANCE", name: "Bajaj Finance Ltd.", weight: 1.95, basePrice: 6850.25, sector: "Financial Services" },
+  { symbol: "HCLTECH", name: "HCL Technologies Ltd.", weight: 1.54, basePrice: 1315.60, sector: "Information Technology" },
+  { symbol: "M&M", name: "Mahindra & Mahindra Ltd.", weight: 1.51, basePrice: 1845.20, sector: "Automobile" },
+  { symbol: "ASIANPAINT", name: "Asian Paints Ltd.", weight: 1.48, basePrice: 2835.10, sector: "Consumer Goods" },
+  { symbol: "MARUTI", name: "Maruti Suzuki India Ltd.", weight: 1.45, basePrice: 11250.00, sector: "Automobile" },
+  { symbol: "SUNPHARMA", name: "Sun Pharmaceutical Industries Ltd.", weight: 1.44, basePrice: 1525.30, sector: "Pharmaceuticals" },
+  { symbol: "TITAN", name: "Titan Company Ltd.", weight: 1.42, basePrice: 3280.40, sector: "Consumer Goods" },
+  { symbol: "TATAMOTORS", name: "Tata Motors Ltd.", weight: 1.35, basePrice: 945.75, sector: "Automobile" },
+  { symbol: "NTPC", name: "NTPC Ltd.", weight: 1.25, basePrice: 312.40, sector: "Power & Utilities" },
+  { symbol: "ADANIENT", name: "Adani Enterprises Ltd.", weight: 1.22, basePrice: 2985.30, sector: "Metals & Mining" },
+  { symbol: "TATASTEEL", name: "Tata Steel Ltd.", weight: 1.18, basePrice: 142.15, sector: "Metals & Mining" },
+  { symbol: "POWERGRID", name: "Power Grid Corp of India Ltd.", weight: 1.12, basePrice: 265.80, sector: "Power & Utilities" },
+  { symbol: "COALINDIA", name: "Coal India Ltd.", weight: 1.05, basePrice: 415.20, sector: "Metals & Mining" },
+  { symbol: "BAJAJFINSV", name: "Bajaj Finserv Ltd.", weight: 0.98, basePrice: 1585.60, sector: "Financial Services" },
+  { symbol: "ULTRACEMCO", name: "UltraTech Cement Ltd.", weight: 0.98, basePrice: 9650.00, sector: "Cement & Building Materials" },
+  { symbol: "HINDALCO", name: "Hindalco Industries Ltd.", weight: 0.95, basePrice: 512.30, sector: "Metals & Mining" },
+  { symbol: "ONGC", name: "Oil & Natural Gas Corp Ltd.", weight: 0.88, basePrice: 255.45, sector: "Oil & Gas" },
+  { symbol: "JSWSTEEL", name: "JSW Steel Ltd.", weight: 0.85, basePrice: 785.10, sector: "Metals & Mining" },
+  { symbol: "GRASIM", name: "Grasim Industries Ltd.", weight: 0.82, basePrice: 2165.40, sector: "Cement & Building Materials" },
+  { symbol: "HDFCLIFE", name: "HDFC Life Insurance Co Ltd.", weight: 0.82, basePrice: 585.20, sector: "Financial Services" },
+  { symbol: "INDUSINDBK", name: "IndusInd Bank Ltd.", weight: 0.80, basePrice: 1452.10, sector: "Financial Services" },
+  { symbol: "CIPLA", name: "Cipla Ltd.", weight: 0.78, basePrice: 1375.30, sector: "Pharmaceuticals" },
+  { symbol: "TECHM", name: "Tech Mahindra Ltd.", weight: 0.75, basePrice: 1245.80, sector: "Information Technology" },
+  { symbol: "WIPRO", name: "Wipro Ltd.", weight: 0.72, basePrice: 485.15, sector: "Information Technology" },
+  { symbol: "NESTLEIND", name: "Nestle India Ltd.", weight: 0.70, basePrice: 24520.00, sector: "Consumer Goods" },
+  { symbol: "ADANIPORTS", name: "Adani Ports & SEZ Ltd.", weight: 0.68, basePrice: 1285.40, sector: "Construction" },
+  { symbol: "DIVISLAB", name: "Divi's Laboratories Ltd.", weight: 0.62, basePrice: 3680.12, sector: "Pharmaceuticals" },
+  { symbol: "HEROMOTOCO", name: "Hero MotoCorp Ltd.", weight: 0.60, basePrice: 4325.50, sector: "Automobile" },
+  { symbol: "SBILIFE", name: "SBI Life Insurance Co Ltd.", weight: 0.58, basePrice: 1435.60, sector: "Financial Services" },
+  { symbol: "APOLLOHOSP", name: "Apollo Hospitals Enterprise Ltd.", weight: 0.56, basePrice: 5945.20, sector: "Pharmaceuticals" },
+  { symbol: "LTIM", name: "LTIMindtree Ltd.", weight: 0.54, basePrice: 5120.40, sector: "Information Technology" },
+  { symbol: "EICHERMOT", name: "Eicher Motors Ltd.", weight: 0.55, basePrice: 3845.10, sector: "Automobile" },
+  { symbol: "BPCL", name: "Bharat Petroleum Corp Ltd.", weight: 0.52, basePrice: 592.30, sector: "Oil & Gas" },
+  { symbol: "DRREDDY", name: "Dr. Reddy's Laboratories Ltd.", weight: 0.50, basePrice: 5815.40, sector: "Pharmaceuticals" },
+  { symbol: "BAJAJ-AUTO", name: "Bajaj Auto Ltd.", weight: 0.48, basePrice: 8350.60, sector: "Automobile" },
+  { symbol: "TATACONSUM", name: "Tata Consumer Products Ltd.", weight: 0.46, basePrice: 1120.50, sector: "Consumer Goods" },
+  { symbol: "SHRIRAMFIN", name: "Shriram Finance Ltd.", weight: 0.45, basePrice: 2285.15, sector: "Financial Services" },
+  { symbol: "BRITANNIA", name: "Britannia Industries Ltd.", weight: 0.44, basePrice: 4680.25, sector: "Consumer Goods" }
+];
